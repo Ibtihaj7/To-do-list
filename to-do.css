@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+body{
+background:linear-gradient(#989CBB,black);
+}
+h1{
+    margin-top: 15px;
+    text-align: center;
+    color:#E0E4EC;
+}
+h2{
+    text-align: center;
+    color:#E0E4EC;
+}
+p{
+    font-size: 22px;
+}
+.con{
+    padding: 25px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    display:flex;
+    justify-content: space-between;
+    width:80vw;
+    background-color: #DE9D3C;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border-bottom: 5px #E0E4EC solid;
+}
+.icon{
+    font-size: 24px;
+}
+.icon:hover{
+font-size: 27px;
+transition: 0.2;
+cursor: pointer;
+}
+ .icon-star-full,.icon-bin{
+opacity: 0.5;
+}
+.icon-star-full:hover{
+    opacity: 1;
+    color:#E0E4EC;
+}
+.icon-bin:hover{
+    color:rgba(156, 74, 26, 0.74);
+    opacity: 1;
+}
+.icon-angry2:hover{
+    color:rgba(240, 228, 61, 0.829);
+    opacity: 1;
+}
+.icon-heart{
+    color:rgb(197, 50, 50);
+}
+
+.input{
+    margin-bottom:60vh;
+    height: 26vh;
+ 
+}
+form{
+    text-align: center;
+}
+input[type='text']{
+    margin-top: 7px;
+    width:35vw;
+    padding: 15px;
+    font-size: 20px;
+}
+input[type='submit']{
+    padding: 15px;
+    font-size: 20px;
+
+}
+button{ all : unset; }
+
+.icon-upload{
+    font-size: 35px;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    top:5px;
+    color:#E0E4EC;
+}
+.icon-upload:hover{
+    font-size: 40px;
+    transition: 0.2;
+
+}
+
+.finish{
+    text-decoration-line: line-through;
+}
+.color{
+    color:#E0E4EC;
+    opacity: 1;
+}
